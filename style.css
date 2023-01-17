@@ -1,0 +1,88 @@
+@import url('https://db.onlinewebfonts.com/c/b10849c899982654fae3f01d02269043?family=Emulogic');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2c2e43;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  height: 4.5rem;
+  background-color: #595260;
+  justify-content: center;
+  align-items: center;
+}
+#heading {
+  font-family: emulogic;
+  color: #ffd523;
+  letter-spacing: 0.085em;
+  text-shadow: 0px 4px 4px rgba(255, 213, 35, 0.28);
+}
+.choicecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+
+}
+.choicebox {
+  width: 256px;
+  height: 233px;
+  background: #4e4959;
+  border-radius: 29px;
+}
+.choice{
+    height: inherit;
+    width: inherit;
+    font-size: 9em;
+    padding-left: 14%;
+}
+
+.maind{
+    width:34em;
+    /* height: 150px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #ffd523; */
+
+}
+.d{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.names{
+    color:white;
+    font-family: 'Noto Serif Toto', serif;
+    font-weight: 400;
+}
+.points{
+    color: #ffd523;
+    font-family: 'Noto Serif Toto', serif;
+    font-weight: 400;
+}
+.d1, .d2{
+    text-align: center;
+}
+.options{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+.option{
+    font-size: 4rem;
+    cursor: pointer;
+}
