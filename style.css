@@ -91,7 +91,7 @@ header {
 }
 @media(max-width:412px) {
     header{
-        width:100vw;
+        width:381px;
         height:40px;
     }
     #heading{
@@ -119,7 +119,7 @@ header {
         font-size: 0.9em;
     }
     .options{
-        gap:0.8em;
+        gap:25px;
     }
     .title{
         font-size: 10px;
