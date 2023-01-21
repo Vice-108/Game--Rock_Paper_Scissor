@@ -1,7 +1,7 @@
 /* @import url('https://db.onlinewebfonts.com/c/b10849c899982654fae3f01d02269043?family=Emulogic'); */
 @font-face {
     font-family: 'Emulogic';
-    src: url(./Emulogic.ttf);
+    src: url(./Emulogic.ttf)format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@400;500;600;700&display=swap');
 * {
@@ -28,7 +28,7 @@ header {
   align-items: center;
 }
 .heading {
-  font-family: emulogic;
+  font-family: 'Emulogic',sans-serif;
   color: #ffd523;
   letter-spacing: 0.085em;
   text-shadow: 0px 4px 4px rgba(255, 213, 35, 0.28);
