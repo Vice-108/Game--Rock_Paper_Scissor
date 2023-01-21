@@ -1,4 +1,8 @@
-@import url('https://db.onlinewebfonts.com/c/b10849c899982654fae3f01d02269043?family=Emulogic');
+/* @import url('https://db.onlinewebfonts.com/c/b10849c899982654fae3f01d02269043?family=Emulogic'); */
+@font-face {
+    font-family: 'Emulogic';
+    src: url(./Emulogic.ttf);
+}
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@400;500;600;700&display=swap');
 * {
   margin: 0;
