@@ -15,11 +15,15 @@
   </head>
   <body>
     <header>
-      <h1 id="heading">Can You 🎮 Beat Me ??</h1>
+      <h1 class="heading">Can You</h1> <h2 id="glogo">🎮</h2> <h1 class="heading">Beat Me ??</h1>
     </header>
     <div class="choicecontainer">
-      <div class="choicebox"><div class="choice">👊</div></div>
-      <div class="choicebox"><div class="choice">👊</div></div>
+      <div class="choicebox">
+        <div class="choice" id="ybox">?</div>
+      </div>
+      <div class="choicebox">
+        <div class="choice" id="cbox">?</div>
+      </div>
     </div>
     <div class="maind">
       <div class="d1">
@@ -30,7 +34,7 @@
       <div class="d1">
         <h3 class="names">COMPUTER</h3>
         <h3 class="points">Points</h3>
-        <h3 style="color: #b2b1b9" id="compscore" class="scordiv">0</h3>
+        <h3 style="color: #b2b1b9" class="score" id="compscore" >0</h3>
       </div>
     </div>
     <h4
@@ -44,9 +48,10 @@
       CHOOSE YOUR ACTION
     </h4>
     <div class="options">
-      <div class="option">👊</div>
-      <div class="option">🤚</div>
-      <div class="option">✌</div>
+      <div class="option" id="orock">👊</div>
+      <div class="option" id="opaper">🤚</div>
+      <div class="option" id="oscissor">✌</div>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>

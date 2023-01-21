@@ -23,11 +23,12 @@ header {
   justify-content: center;
   align-items: center;
 }
-#heading {
+.heading {
   font-family: emulogic;
   color: #ffd523;
   letter-spacing: 0.085em;
   text-shadow: 0px 4px 4px rgba(255, 213, 35, 0.28);
+  font-size: 3rem;
 }
 .choicecontainer {
   display: flex;
@@ -38,7 +39,7 @@ header {
 }
 .choicebox {
   width: 256px;
-  height: 233px;
+  height: 256px;
   background: #4e4959;
   border-radius: 29px;
 }
@@ -50,7 +51,7 @@ header {
 }
 
 .maind{
-    width:34em;
+    width:34rem;
     /* height: 150px; */
     display: flex;
     flex-direction: row;
@@ -74,7 +75,7 @@ header {
     font-weight: 400;
 }
 .score{
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 .d1, .d2{
     text-align: center;
@@ -86,45 +87,50 @@ header {
     gap: 5rem;
 }
 .option{
-    font-size: 4rem;
+    font-size: 7rem;
     cursor: pointer;
 }
-@media(max-width:412px) {
-    header{
-        width:381px;
-        height:40px;
+#glogo{
+    font-size: 70px;
+}
+.title{
+    font-size:1.6rem;
+}
+@media only screen and (max-width:600px) {
+    body{
+        flex-wrap: nowrap;
     }
-    #heading{
-        font-size: 18px;
+    .heading{
+        font-size:1rem; 
     }
     .choicecontainer{
-        justify-content: space-around;
-        gap:35px;
+        gap: 5rem;
     }
-    .choicebox{
-        width:102.4px;
-        height:93.2px;
-    }
-    .choice{
-        height: inherit;
-        width: inherit;
-        font-size: 4.5em;
-        padding:2px;
-        
+    .choicebox , .choice{
+        height: 8rem;
+        width: 8rem;
+        font-size: 4.5rem;
+        padding-left: 3.5%;
+        padding-top: 3.5%;
     }
     .maind{
-        width:12em;
-    }
-    .names , .points{
-        font-size: 0.9em;
+        width:17rem;    
     }
     .options{
-        gap:25px;
-    }
-    .title{
-        font-size: 10px;
+        position: absolute;
+        top: 29rem;
+        left: 1.2rem;
+        right: 0;
+        gap:2.5rem;
     }
     .option{
-        font-size: 2.5em;
+        font-size: 4.5rem;
+        cursor: pointer;
+    }
+    #glogo{
+        font-size: 40px;
+    }
+    .title{
+        font-size: 1.2rem;
     }
 }
